@@ -1,17 +1,26 @@
 
 // This function works!
-for ( i = 5; i <= 120; i+=5)  {
+// for ( i = 5; i <= 120; i+=5)  {
 
-	console.log(i);
-}
+// 	console.log(i);
+// }
 
+console.log("The JS is linked.")
 
-
-//This function (below) is not working,possible endless loop?
-// for ( j = 4096; j <= 1; j = j/2 ) {
+// This function (below) is not working,possible endless loop?
+// for (let j = 4096; j <= 1; j = j/2 ) {
 
 // 	console.log("Current value is " + j);
 // }
+
+//trying to do it in the form of a while loop instead...
+
+var counter = 0;
+while (counter > 1) {
+	console.log(counter);
+	counter = (counter)/(2);
+}
+
 
 
 //Array Iteration - presidents
