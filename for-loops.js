@@ -39,20 +39,30 @@ console.log("The JS is linked.")
 
 ///This one also not working. :(
 
-// var antSpecies = {
-//   argentine: {name="Argentine Ant"},
-//   army: {name="Army Ant"},
-//   bigHeaded: {name="Big Headed Ant"},
-//   black: {name="Black Ant"},
-//   bull: {name="Bull Ant"},
-//   carpenter: {name="Carpenter Ant"},
-//   crazy: {name="Crazy Ant"},
-//   fire: {name="Fire Ant"},
-//   glider: {name="Glider Ant"},
-//   honeyPot: {name="Honeypot Ant"},
-//   jackJumper: {name="Jack-Jumper Ant"}
-// }
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+for (key in antSpecies)  {
 
+	console.log(`antSpecies${key}`);
+}
+
+
+// var obj = {a: 1, b: 2, c: 3};
+    
+// for (var prop in obj) {
+//   console.log(`obj.${prop} = ${obj[prop]}`);
+// }
     
 // for (var name in antSpecies) {
 //   console.log(`antSpecies.${name} = ${antSpecies[name]}`);
