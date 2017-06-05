@@ -58,14 +58,4 @@ for (key in antSpecies)  {
 }
 
 
-// var obj = {a: 1, b: 2, c: 3};
-    
-// for (var prop in obj) {
-//   console.log(`obj.${prop} = ${obj[prop]}`);
-// }
-    
-// for (var name in antSpecies) {
-//   console.log(`antSpecies.${name} = ${antSpecies[name]}`);
-// }
 
-//for-loops.js:31 Uncaught SyntaxError: Invalid shorthand property initializer
