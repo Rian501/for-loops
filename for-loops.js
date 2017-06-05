@@ -7,33 +7,33 @@
 
 console.log("The JS is linked.")
 
-// This function (below) is not working,possible endless loop?
-// for (let j = 4096; j <= 1; j = j/2 ) {
+// This function (below) is  working!!
+// for (let j = 4096; j > 1; j = j/2 ) {
 
 // 	console.log("Current value is " + j);
 // }
 
-//trying to do it in the form of a while loop instead...
+//YAY working:
 
-var counter = 0;
-while (counter > 1) {
-	console.log(counter);
-	counter = (counter)/(2);
-}
+// var counter = 4096;
+// while (counter > 1) {
+// 	console.log(counter);
+// 	counter = counter / 2;
+// }
 
 
 
-//Array Iteration - presidents
+//Array Iteration - presidents --WORKING!
 
 // var presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams", "Andrew Jackson"]
 
+
 // for ( k=0; k < presidents.length; k++) {
     
-//     presNum = k + 1
-// 	console.log("President #" + presNum + " was " + ${presidents[k]});
+    
+// 	console.log(`President #${k+1} was ${presidents[k]}`);
 // }
 
-//?? Don't understand why "syntax error indicates uncaught missing ) after argument list"
 
 
 
